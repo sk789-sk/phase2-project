@@ -5,8 +5,18 @@ import Header from "./Header";
 
 function Owned({ownedGames}){
 
-let renderGames = ownedGames.map((games) => {
-    return <GameCard />
+let renderGames = ownedGames.map((game) => {
+    return <GameCard key={game.id}
+    name={game.Name}
+link={game.Link}
+imageSrc={game.Image}
+genre={game.Genre}
+tag={game.Tag}
+price={game.Price}
+rating={game.rating}
+owned={game.owned}
+favorite={game.favorite}
+    />
 })
     
     return(

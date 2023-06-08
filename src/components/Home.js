@@ -1,8 +1,6 @@
 import React from "react";
-import NavBar from "./NavBar";
-import SearchBar from "./SearchBar";
-import NewGameBar from "./NewGameBar";
 import GameCard from "./GameCard";
+import Header from "./Header";
 
 {/* <nav>
 <p>NavBar</p>
@@ -15,18 +13,36 @@ import GameCard from "./GameCard";
 <a>Owned</a>
 </nav> */}
 
+// {name  
+// link
+// imageSrc 
+// genre,
+//  tag, 
+//  price 
+//  rating 
+//  owned,
+//  favorite}
+
 
 function Home({games}){
 
 let renderGames = games.map((game) => {
-    return <GameCard />
+    return <GameCard key={game.id}
+    name={game.Name}
+link={game.Link}
+imageSrc={game.Image}
+genre={game.Genre}
+tag={game.Tag}
+price={game.Price}
+rating={game.rating}
+owned={game.owned}
+favorite={game.favorite}
+    />
 })
     return(
         <div>
             <h1>You are Home</h1>
-            <NavBar />
-            <SearchBar />
-            <NewGameBar />
+            <Header />
             {renderGames}
         </div>
     )

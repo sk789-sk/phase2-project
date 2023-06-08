@@ -3,11 +3,19 @@ import GameCard from "./GameCard"
 import Header from "./Header";
 
 function Favorite({favoriteGames}){     
-    const game1 = favoriteGames[1]
-
 
 let renderGames = favoriteGames.map((game) => {
-    return <GameCard />
+    return <GameCard key={game.id}
+    name={game.Name}
+link={game.Link}
+imageSrc={game.Image}
+genre={game.Genre}
+tag={game.Tag}
+price={game.Price}
+rating={game.rating}
+owned={game.owned}
+favorite={game.favorite}
+    />
 })
 
 // function renderFavorites(){

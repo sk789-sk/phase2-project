@@ -2,17 +2,22 @@ import React from "react";
 
 //Pass Data from game db here 
 
-function GameCard({src}) {
+function GameCard({name = 'Name', 
+link ='click to play', 
+imageSrc = "https://via.placeholder.com/400", 
+genre, tag, price =0, rating = "", owned, favorite})
+
+{
 
     return (
         <li className="card">
-            <img src={"https://via.placeholder.com/400"} alt="game_Name" />
-            <h4>Game Name</h4>            
-            <a href="Link"></a>
-            <p>Genre</p>
-            <p>Tag</p>
-            <p>Price</p>
-            <p>Rating</p>
+            <img src={imageSrc} alt={name} />
+            <h4>{name}</h4>            
+            <a href={link}></a>
+            <p>Genre {genre}</p>
+            <p>Tags {tag}</p>
+            <p>Price {price}</p>
+            <p>Rated {rating}/5</p>
             <button>Favorite</button>
             <button>Owned</button>
         </li>
