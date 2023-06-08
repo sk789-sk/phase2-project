@@ -1,13 +1,12 @@
 import React from "react";
-import NavBar from "./NavBar";
 import GameCard from "./GameCard"
+import Header from "./Header";
 
 function Favorite({favoriteGames}){     
-    //console.log(favoriteGames[0])
     const game1 = favoriteGames[1]
-    console.log(game1.Name)
 
-let renderFavorites = favoriteGames.map((game) => {
+
+let renderGames = favoriteGames.map((game) => {
     return <GameCard />
 })
 
@@ -18,9 +17,9 @@ let renderFavorites = favoriteGames.map((game) => {
 
     return(
         <div>
-            <NavBar />
+            <Header />
             <h1>You are Favorites</h1>
-            {renderFavorites}         {/* Change from function call to variable after */ }
+            {renderGames}         {/* Change from function call to variable after */ }
 
         </div>
 

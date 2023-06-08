@@ -42,7 +42,7 @@ const genre4Games = [games[5]]
   return (
     <BrowserRouter>
       <Routes>
-        <Route path = '/' element = {<Home/>} />
+        <Route path = '/' element = {<Home games={games}/>} />
         <Route path = '/Genre1' element = {<Genre1 genre1Games={genre1Games} />} />
         <Route path = '/Genre2' element = {<Genre2 genre2Games={genre2Games} />} />
         <Route path = '/Genre3' element = {<Genre3 genre3Games={genre3Games}/>} />

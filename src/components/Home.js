@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./NavBar";
 import SearchBar from "./SearchBar";
 import NewGameBar from "./NewGameBar";
+import GameCard from "./GameCard";
 
 {/* <nav>
 <p>NavBar</p>
@@ -15,13 +16,18 @@ import NewGameBar from "./NewGameBar";
 </nav> */}
 
 
-function Home(){
+function Home({games}){
+
+let renderGames = games.map((game) => {
+    return <GameCard />
+})
     return(
         <div>
             <h1>You are Home</h1>
             <NavBar />
             <SearchBar />
             <NewGameBar />
+            {renderGames}
         </div>
     )
     }

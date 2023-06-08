@@ -1,12 +1,18 @@
 import React from "react";
-import NavBar from "./NavBar";
+import GameCard from "./GameCard";
+import Header from "./Header";
 
 function Genre2({genre2Games}){
+
+let renderGames = genre2Games.map((game) => {
+        return <GameCard />
+})
     return(
         <div>
-            <NavBar />
+            <Header />
             <h1>You are genre2</h1>
             <h3>name</h3>
+            {renderGames}
         </div>
 
 
