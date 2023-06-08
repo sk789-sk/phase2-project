@@ -10,6 +10,7 @@ import Favorite from './components/Favorites';
 import Genre2 from './components/Genre2';
 import Genre3 from './components/Genre3';
 import Genre4 from './components/Genre4'
+import FilteredGames from './components/FilteredGame'
 
 //should bundle all the cards together to make this not import hell.
 
@@ -55,22 +56,32 @@ const genre5Games = games.filter ((game) => { //Strategy
   return (game.Genre === 'Puzzle') 
 }) 
 
-//console.log(favoriteGames)
+const [filter,setFilter] = useState("")
+
+const filteredGames = games.filter((game) => {
+return (game.Name.toLowerCase().includes(filter.toLowerCase()) ||
+        game.Tag.toLowerCase().includes(filter.toLowerCase())||
+        game.Genre.toLowerCase().includes(filter.toLowerCase())   
+        ) 
+
+})
+
+
 
   return (
     <BrowserRouter>
       <Routes>
-        <Route path = '/' element = {<Home games={games}/>} />
+        <Route path = '/' element = {<Home games={filteredGames} setFilter={setFilter}/>} />
         <Route path = '/Genre1' element = {<Genre1 genre1Games={genre1Games} />} />
         <Route path = '/Genre2' element = {<Genre2 genre2Games={genre2Games} />} />
         <Route path = '/Genre3' element = {<Genre3 genre3Games={genre3Games}/>} />
         <Route path = '/Genre4' element = {<Genre4 genre4Games={genre4Games}/>} />
         <Route path = '/Owned' element = {<Owned ownedGames={OwnedGames}/>} />
         <Route path = '/Favorites' element = {<Favorite favoriteGames={favoriteGames}/>} />
-        
-
+        {/* <Route path = '/Filtered' elements = {<FilteredGames filteredGames={filteredGames} />} /> */}
       </Routes>
     </BrowserRouter>
+    
   );
 }
 

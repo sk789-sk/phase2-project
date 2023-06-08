@@ -1,8 +1,16 @@
 import React, { useState } from "react";
 
-function SearchBar(){
+function SearchBar({setFilter}){
+
+    function handleChange(e){
+        console.log(e.target.value)
+        setFilter(filter => e.target.value)
+    }
+
     return(
-        <input type="text" className="SearchBar" placeholder="Search by Name or Tag"/>
+    <div>
+        <input onChange={handleChange} type="text" className="SearchBar" placeholder="Search by Name or Tag"/>
+    </div>
     )
     }
 
