@@ -180,7 +180,10 @@
       "Owned": false,
       "Favorite": false,
       "Detailed": "",
-      "Platforms": ["",""]
+      "Platforms": [
+        "",
+        ""
+      ]
     },
     {
       "Name": "Hashi",
