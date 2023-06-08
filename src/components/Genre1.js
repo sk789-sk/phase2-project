@@ -1,19 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar";
 
-{/* <nav>
-<p>NavBar</p>
-<a>Home</a>
-<a>Genre1</a>
-<a>genre2</a>
-<a>Genre3</a>
-<a>genre4</a>
-<a>Favorites</a>
-<a>Owned</a>
-</nav> */}
-
-
-function Genre1(){
+function Genre1({genre1Games}){
     return(
         <div> 
         <NavBar />

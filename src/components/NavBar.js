@@ -8,7 +8,7 @@ function NavBar(){
             <Link to="/Genre1">Genre1</Link>
             <Link to = "/Genre2">Genre2</Link>
             <Link to = "/Genre3">Genre3</Link>
-            <Link to = "/Genre4">genre4</Link>
+            <Link to = "/Genre4">Genre4</Link>
             <Link to = "/Owned">Owned</Link>
             <Link to = "/Favorites">Favorites</Link>
 

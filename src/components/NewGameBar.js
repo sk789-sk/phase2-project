@@ -1,9 +1,9 @@
 import React from "react";
 
-function NewGame(){
+function NewGameBar(){
     return(
         <p>NewGameInput</p>
     )
     }
 
-export default NewGame
+export default NewGameBar

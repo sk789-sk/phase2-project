@@ -2,7 +2,7 @@ import React from "react";
 
 //Pass Data from game db here 
 
-function GameCard() {
+function GameCard({src}) {
 
     return (
         <li className="card">
