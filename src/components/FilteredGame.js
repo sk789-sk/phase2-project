@@ -2,7 +2,7 @@ import React from "react";
 import GameCard from "./GameCard";
 import Header from "./Header";
 
-function FilteredGames({filteredGames}){
+function FilteredGames({filteredGames, setFilter}){
 
 let renderGames = filteredGames.map((game) => {
         return <GameCard key={game.id}
@@ -20,7 +20,7 @@ let renderGames = filteredGames.map((game) => {
 
     return(
         <div> 
-        <Header/>
+        <Header setFilter={setFilter}/>
             <h1>You are Genre1</h1> 
             {renderGames}
         </div>

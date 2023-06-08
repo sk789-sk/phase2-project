@@ -74,11 +74,11 @@ return (game.Name.toLowerCase().includes(filter.toLowerCase()) ||
         <Route path = '/' element = {<Home games={filteredGames} setFilter={setFilter}/>} />
         <Route path = '/Genre1' element = {<Genre1 genre1Games={genre1Games} />} />
         <Route path = '/Genre2' element = {<Genre2 genre2Games={genre2Games} />} />
-        <Route path = '/Genre3' element = {<Genre3 genre3Games={genre3Games}/>} />
-        <Route path = '/Genre4' element = {<Genre4 genre4Games={genre4Games}/>} />
-        <Route path = '/Owned' element = {<Owned ownedGames={OwnedGames}/>} />
-        <Route path = '/Favorites' element = {<Favorite favoriteGames={favoriteGames}/>} />
-        {/* <Route path = '/Filtered' elements = {<FilteredGames filteredGames={filteredGames} />} /> */}
+        <Route path = '/Genre3' element = {<Genre3 genre3Games={genre3Games} />} />
+        <Route path = '/Genre4' element = {<Genre4 genre4Games={genre4Games} />} />
+        <Route path = '/Owned' element = {<Owned ownedGames={OwnedGames} />} />
+        <Route path = '/Favorites' element = {<Favorite favoriteGames={favoriteGames} />} />
+        <Route path = '/Filtered' element = {<FilteredGames filteredGames={filteredGames} setFilter={setFilter} />} />
       </Routes>
     </BrowserRouter>
     

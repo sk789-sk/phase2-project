@@ -24,7 +24,7 @@ import Header from "./Header";
 //  favorite}
 
 
-function Home({games, setFilter}){
+function Home({games}){
 
 let renderGames = games.map((game) => {
     return <GameCard key={game.id} name={game.Name} link={game.Link} imageSrc={game.Image}
@@ -35,7 +35,7 @@ genre={game.Genre} tag={game.Tag} price={game.Price} rating={game.rating} owned=
     return(
         <div>
             <h1>You are Home</h1>
-            <Header setFilter={setFilter} />
+            <Header />
             {renderGames}
         </div>
     )

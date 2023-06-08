@@ -11,6 +11,7 @@ function NavBar(){
             <Link to = "/Genre4">Genre4</Link>
             <Link to = "/Owned">Owned</Link>
             <Link to = "/Favorites">Favorites</Link>
+            <Link to ="/Filtered">Searched</Link>
 
 
         </nav>

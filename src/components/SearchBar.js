@@ -1,15 +1,20 @@
 import React, { useState } from "react";
+import { useNavigate } from 'react-router-dom';
 
-function SearchBar({setFilter}){
+function SearchBar({setFilter}){ //{setFilter}
+    const navigate = useNavigate()
+
+    function handleClick(e){
+        navigate("/Filtered")
+    }
 
     function handleChange(e){
-        console.log(e.target.value)
-        setFilter(filter => e.target.value)
+         setFilter(filter => e.target.value)
     }
 
     return(
     <div>
-        <input onChange={handleChange} type="text" className="SearchBar" placeholder="Search by Name or Tag"/>
+        <input onClick={handleClick} onChange={handleChange} type="text" className="SearchBar" placeholder="Search by Name or Tag"/>
     </div>
     )
     }

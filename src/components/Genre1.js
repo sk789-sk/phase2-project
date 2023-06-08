@@ -20,7 +20,7 @@ let renderGames = genre1Games.map((game) => {
 
     return(
         <div> 
-        <Header/>
+        <Header />
             <h1>You are Genre1</h1> 
             {renderGames}
         </div>
