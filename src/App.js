@@ -29,13 +29,31 @@ function App() {
 //games is everything in the database
 //the smaller arrays are the filtered games to render
 
+//Could pull all of this into a filter function of our own
+const favoriteGames = games.filter((game) => {
+  return (game.Favorite === true)
+})
 
-const favoriteGames = [games[0], games[5]]
-const OwnedGames = [games[1]]
-const genre1Games = [games[2]]
-const genre2Games = [games[3]]
-const genre3Games = [games[4]]
-const genre4Games = [games[5]]
+const OwnedGames = games.filter((game)=> {
+  return (game.Owned === true)
+})
+
+//Make a genre filter function
+const genre1Games = games.filter((game)=> {    //FPS
+  return (game.Genre === "FPS")
+} ) 
+const genre2Games = games.filter((game) => {  //RPG
+  return (game.Genre === "RPG")
+}) 
+const genre3Games = games.filter((game) => {  //MOBA
+  return (game.Genre === 'MOBA')
+}) 
+const genre4Games = games.filter((game) => { //Sports
+  return (game.Genre === 'Sports')
+}) 
+const genre5Games = games.filter ((game) => { //Strategy
+  return (game.Genre === 'Puzzle') 
+}) 
 
 //console.log(favoriteGames)
 
