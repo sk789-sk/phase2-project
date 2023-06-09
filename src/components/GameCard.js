@@ -33,10 +33,10 @@ function handleOwnedClick(){
             <div id="main-info"> 
                 {isPrimary ? 
                 <div id="primary-info">
-                    <p className="genreName">Genre {genre}</p>
-                    <p className="tagName">Tags {tag}</p>
-                    <p className="price">Price {price}</p>
-                    <p className="rating">Rated {rating}/5</p>
+                    <p className="genreName">Genre: {genre}</p>
+                    <p className="tagName">Tags: {tag}</p>
+                    <p className="price">Price: {price}</p>
+                    <p className="rating">Rated: {rating}/5</p>
                 </div> : 
                 <div id="secondary-info">
                     <p>{summary}</p>

@@ -15,13 +15,14 @@ price={game.Price}
 rating={game.Rating}
 owned={game.Owned}
 favorite={game.Favorite}
+summary={game.Summary}
     />
 })
 
     return(
         <div>
             <Header setFilter={setFilter} setGames={setGames} />
-            <h1 className="PageHeader">Genre3</h1>
+            <h1 className="PageHeader">Massive Online Battle Arena (MOBA) </h1>
             {renderGames}
         </div>
 

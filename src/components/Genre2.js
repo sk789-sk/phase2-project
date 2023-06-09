@@ -15,13 +15,13 @@ let renderGames = genre2Games.map((game) => {
     rating={game.Rating}
     owned={game.Owned}
     favorite={game.Favorite}
+    summary={game.Summary}
         />
 })
     return(
         <div>
             <Header setFilter={setFilter} setGames={setGames} />
-            <h1 className="PageHeader">Genre2</h1>
-            <h3>name</h3>
+            <h1 className="PageHeader">Role Player Games (RPG) </h1>
             {renderGames}
         </div>
 

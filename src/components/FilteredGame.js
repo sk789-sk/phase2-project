@@ -15,6 +15,7 @@ let renderGames = filteredGames.map((game) => {
     rating={game.rating}
     owned={game.owned}
     favorite={game.favorite}
+    summary={game.Summary}
         />
 })
 

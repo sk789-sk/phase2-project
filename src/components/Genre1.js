@@ -15,13 +15,14 @@ let renderGames = genre1Games.map((game) => {
     rating={game.Rating}
     owned={game.Owned}
     favorite={game.Favorite}
+    summary={game.Summary}
         />
 })
 
     return(
         <div> 
         <Header setFilter={setFilter} setGames={setGames} />
-            <h1 className="headerName">Genre1</h1> 
+            <h1 className="headerName">First Person Shooters (FPS)</h1> 
             {renderGames}
         </div>
     )

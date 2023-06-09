@@ -10,7 +10,8 @@
       "Price": "0.00",
       "Rating": 5,
       "Owned": true,
-      "Favorite": true
+      "Favorite": true,
+      "Summary": "Valorant is a competitive, team-based first-person shooter (FPS) video game developed and published by Riot Games. Set in a near-future Earth, it pits two teams of five players against each other, with one team defending and the other attacking. Each player selects a unique agent with special abilities, adding a strategic element to gameplay. Matches revolve around planting or defusing a bomb called the Spike, and teams must employ teamwork, communication, and precise shooting skills to secure victory. Valorant's gameplay emphasizes precise aiming, map control, and careful use of abilities, making it a popular title in the esports scene and among FPS enthusiasts."
     },
     {
       "id": 2,
@@ -22,7 +23,8 @@
       "Price": "0.00",
       "Rating": 4,
       "Owned": true,
-      "Favorite": false
+      "Favorite": false,
+      "Summary": "Counter-Strike: Global Offensive (CS:GO) is a highly popular team-based first-person shooter (FPS) game developed by Valve Corporation. It is the fourth installment in the Counter-Strike series. In CS:GO, players are divided into two teams, terrorists and counter-terrorists, and engage in objective-based gameplay across various maps. The terrorists aim to plant a bomb and defend it, while the counter-terrorists strive to defuse the bomb or eliminate the opposing team. The game features tight gunplay mechanics, realistic weapon handling, and strategic gameplay, making it a staple in competitive esports. CS:GO offers a range of modes and allows for skill progression through matchmaking ranks and in-game purchases."
     },
     {
       "Name": "Destiny",
@@ -34,7 +36,8 @@
       "Rating": 3.9,
       "id": 3,
       "Owned": false,
-      "Favorite": false
+      "Favorite": false,
+      "Summary": "Destiny is a popular online multiplayer first-person shooter (FPS) game developed by Bungie and published by Activision (until 2019). Set in a science fiction universe, players assume the role of Guardians, powerful warriors tasked with defending Earth's last safe city from various alien threats. Combining elements of FPS gameplay with role-playing game (RPG) elements, players embark on cooperative missions, competitive multiplayer matches, and expansive raids, earning powerful gear and abilities along the way. Destiny offers a rich lore, diverse character classes, and a persistent world that evolves over time through major expansions and updates, creating a captivating and immersive gaming experience."
     },
     {
       "Name": "OverWatch 2",
@@ -46,7 +49,8 @@
       "Rating": 1.8,
       "id": 4,
       "Owned": false,
-      "Favorite": false
+      "Favorite": false,
+      "Summary": "Overwatch 2 is a team-based multiplayer first-person shooter (FPS) game developed and published by Blizzard Entertainment. Serving as a sequel to the original Overwatch, it retains the core gameplay mechanics of objective-based team battles with a diverse roster of heroes. Overwatch 2 introduced several notable additions, including an expanded cooperative player-versus-environment (PvE) mode, featuring story-driven missions and progression systems. The game also features updated graphics, new maps, and new heroes with unique abilities. With its focus on team synergy, strategic gameplay, and a vibrant cast of characters, Overwatch 2 aims to continue providing engaging and competitive experiences for players in both casual and professional settings."
     },
     {
       "Name": "Nier:Automata",
@@ -58,7 +62,8 @@
       "Rating": 4.8,
       "id": 5,
       "Owned": true,
-      "Favorite": true
+      "Favorite": true,
+      "Summary": "Nier: Automata is an action role-playing game (RPG) developed by PlatinumGames and published by Square Enix. Set in a post-apocalyptic world where machines have taken over, players assume the role of androids 2B, 9S, and A2 who battle against the mechanical enemies. The game combines fast-paced combat, exploration, and RPG elements, offering a captivating narrative that explores themes of humanity, identity, and existentialism. With its thought-provoking story, diverse gameplay mechanics, and stunning visuals, Nier: Automata has received critical acclaim for its emotional depth, intricate world-building, and unique blend of genres, establishing itself as a standout title in the gaming industry."
     },
     {
       "Name": "Horizon Zero Dawn",
@@ -70,7 +75,8 @@
       "Rating": 4.7,
       "id": 6,
       "Owned": true,
-      "Favorite": true
+      "Favorite": true,
+      "Summary" : "Horizon Zero Dawn is an action role-playing game (RPG) developed by Guerrilla Games and published by Sony Interactive Entertainment. Set in a post-apocalyptic world overrun by robotic creatures, players control Aloy, a skilled hunter and archer, as she unravels the mysteries of her world and discovers her own origins. The game combines open-world exploration, strategic combat, and a compelling narrative, showcasing Aloy's journey through lush environments and dangerous encounters. With its breathtaking visuals, immersive gameplay, and a richly crafted world, Horizon Zero Dawn has garnered critical acclaim for its engaging story, dynamic combat mechanics, and the depth of its characters."
     },
     {
       "Name": "Deus Ex: Human Revolution",
@@ -82,7 +88,8 @@
       "Rating": 4.7,
       "id": 7,
       "Owned": true,
-      "Favorite": false
+      "Favorite": false,
+      "Summary" : "Deus Ex: Human Revolution is a cyberpunk-themed action role-playing game (RPG) developed by Eidos Montreal and published by Square Enix. Set in the near future, players assume the role of Adam Jensen, a security specialist equipped with cybernetic augmentations. The game combines stealth, combat, and exploration as players navigate a conspiracy-filled world, unraveling a complex storyline revolving around human augmentation and its ethical implications. With its player choice-driven gameplay, deep character customization, and a dystopian atmosphere, Deus Ex: Human Revolution has received acclaim for its engaging narrative, immersive world, and the moral dilemmas it presents to players."
     },
     {
       "Name": "Watch Dogs 2",
@@ -94,7 +101,8 @@
       "Rating": 4.5,
       "id": 8,
       "Owned": true,
-      "Favorite": false
+      "Favorite": false,
+      "Summary" : "Watch Dogs 2 is an open-world action-adventure game developed by Ubisoft. Set in a fictionalized version of the San Francisco Bay Area, players assume the role of Marcus Holloway, a skilled hacker and member of the hacking group DedSec. The game focuses on hacking into various systems, manipulating technology, and engaging in stealth or combat to complete missions and expose the corrupt practices of powerful corporations. With its emphasis on hacking mechanics, a vibrant open world, and a story that explores themes of surveillance and privacy, Watch Dogs 2 offers an immersive experience filled with hacking-driven gameplay and a dose of social commentary."
     },
     {
       "Name": "League of Legends",
@@ -106,7 +114,8 @@
       "Rating": 2.9,
       "id": 9,
       "Owned": true,
-      "Favorite": false
+      "Favorite": false,
+      "Summary": "League of Legends (LoL) is a popular multiplayer online battle arena (MOBA) game developed and published by Riot Games. In LoL, players form teams of champions and engage in intense strategic battles across various maps. Each champion possesses unique abilities and plays a specific role, such as tank, support, mage, or marksman. The objective is to work together with teammates to destroy the enemy team's nexus, while defending their own. With its competitive gameplay, emphasis on teamwork and communication, and a vast roster of diverse champions, League of Legends has become a major title in the esports scene, attracting millions of players worldwide."
     },
     {
       "Name": "Dota 2",
@@ -118,7 +127,8 @@
       "Rating": 4.4,
       "id": 10,
       "Owned": false,
-      "Favorite": false
+      "Favorite": false,
+      "Summary": "Dota 2 is a highly popular multiplayer online battle arena (MOBA) game developed and published by Valve Corporation. Players form teams of heroes and compete in intense battles on a symmetrical map, aiming to destroy the enemy team's Ancient while defending their own. Each hero has unique abilities and fills specific roles such as carry, support, or initiator. Dota 2 emphasizes strategic decision-making, team coordination, and precise execution of skills. The game offers a vast roster of heroes, regular updates, and a thriving competitive scene, making it a staple in the esports community and attracting a dedicated player base worldwide."
     },
     {
       "Name": "Smite",
@@ -130,7 +140,8 @@
       "Rating": 3,
       "id": 11,
       "Owned": false,
-      "Favorite": false
+      "Favorite": false,
+      "Summary" : "Smite is a popular multiplayer online battle arena (MOBA) game developed and published by Hi-Rez Studios. Unlike traditional top-down MOBAs, Smite takes a third-person perspective, immersing players in the action as they control gods, goddesses, and mythological creatures from various pantheons. Players engage in strategic team-based battles across different game modes and maps, aiming to destroy the enemy team's Titan while defending their own. Smite offers a wide range of diverse characters, each with unique abilities and playstyles. With its immersive perspective, mythological theme, and dynamic gameplay, Smite has carved out its own niche within the MOBA genre and garnered a dedicated player community."
     },
     {
       "Name": "EA SPORTS™ FIFA 23",
@@ -179,11 +190,7 @@
       "id": 15,
       "Owned": false,
       "Favorite": false,
-      "Detailed": "",
-      "Platforms": [
-        "",
-        ""
-      ]
+      "Summary": "MLB The Show 23 is a baseball simulation video game developed by San Diego Studio and published by Sony Interactive Entertainment. It is the latest installment in the long-running MLB The Show series. The game offers an immersive and authentic baseball experience, featuring realistic graphics, gameplay mechanics, and player animations. Players can create their own custom baseball player and guide them through a career in the Road to the Show mode, compete in online multiplayer matches, manage a team in Franchise mode, or engage in quick exhibition games. MLB The Show 23 showcases the excitement and intricacies of America's favorite pastime, bringing the sport to life for players and fans alike."
     },
     {
       "Name": "Hashi",
@@ -195,7 +202,8 @@
       "Rating": 3.4,
       "Owned": false,
       "Favorite": false,
-      "id": 16
+      "id": 16,
+      "Summary": "Hashi, also known as Bridges, is a logic puzzle game where the objective is to connect islands with bridges according to certain rules. The game consists of a grid filled with islands, each displaying a number that indicates the required number of bridges to connect it. The challenge is to create a network of bridges that connects all the islands while adhering to specific rules, such as not crossing over other bridges or creating loops. Hashi requires strategic thinking, logical deduction, and careful planning to solve each puzzle and create a coherent bridge network across the grid."
     },
     {
       "Name": "Classic Sudoku",

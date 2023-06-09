@@ -15,6 +15,8 @@ price={game.Price}
 rating={game.Rating}
 owned={game.Owned}
 favorite={game.Favorite}
+summary={game.Summary}
+
     />
 })
 
