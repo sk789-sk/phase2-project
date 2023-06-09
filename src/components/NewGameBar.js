@@ -1,9 +1,12 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom';
 
-function NewGameBar(){
+function NewGameBar({setGames}){
+    const navigate = useNavigate()
 
 function handleSubmit(e) {
     e.preventDefault()
+    
 
     const newGameObj = {
         'Name': e.target.name.value,
@@ -26,12 +29,13 @@ function handleSubmit(e) {
         body: JSON.stringify(newGameObj)
     })
     .then(resp => resp.json())
-    .then(data => console.log(data))
+    .then(data => setGames((games) => [...games, data]))               //add state set update needs to pass.... same issue with 3789 components all needing same data
+    
+    navigate("/")
     
 }
     return(
         <div className="newGameForm">
-            <h2>New Game</h2>
             <form onSubmit={handleSubmit}>
                 <input type="text" name="name" placeholder="Game Name" />
                 <input type="text" name="image" placeholder="Image URL" />

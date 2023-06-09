@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 import GameCard from "./GameCard";
 import Header from "./Header";
 
-function Genre4({genre4Games}){
+function Genre4({genre4Games, setFilter, setGames}){
 
 let renderGames = genre4Games.map((game) => {
     return <GameCard key={game.id}
@@ -13,15 +13,15 @@ imageSrc={game.Image}
 genre={game.Genre}
 tag={game.Tag}
 price={game.Price}
-rating={game.rating}
-owned={game.owned}
-favorite={game.favorite}
+rating={game.Rating}
+owned={game.Owned}
+favorite={game.Favorite}
     />
 })
     return(
         <div>
-            <Header />
-            <h1>You are genre4</h1>
+            <Header setFilter={setFilter} setGames={setGames}/>
+            <h1 className="PageHeader">Genre4</h1>
             {renderGames}
         </div>
 

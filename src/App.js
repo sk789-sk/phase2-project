@@ -69,32 +69,21 @@ return (game.Name.toLowerCase().includes(filter.toLowerCase()) ||
 
 
   return (
+    <div className='App'>
     <BrowserRouter>
       <Routes>
-        <Route path = '/' element = {<Home games={filteredGames} setFilter={setFilter}/>} />
-        <Route path = '/Genre1' element = {<Genre1 genre1Games={genre1Games} />} />
-        <Route path = '/Genre2' element = {<Genre2 genre2Games={genre2Games} />} />
-        <Route path = '/Genre3' element = {<Genre3 genre3Games={genre3Games} />} />
-        <Route path = '/Genre4' element = {<Genre4 genre4Games={genre4Games} />} />
-        <Route path = '/Owned' element = {<Owned ownedGames={OwnedGames} />} />
-        <Route path = '/Favorites' element = {<Favorite favoriteGames={favoriteGames} />} />
-        <Route path = '/Filtered' element = {<FilteredGames filteredGames={filteredGames} setFilter={setFilter} />} />
+        <Route path = '/' element = {<Home games={filteredGames} setFilter={setFilter} setGames={setGames}/>} />
+        <Route path = '/Genre1' element = {<Genre1 genre1Games={genre1Games} setFilter={setFilter} setGames={setGames}/>} />
+        <Route path = '/Genre2' element = {<Genre2 genre2Games={genre2Games} setFilter={setFilter} setGames={setGames}/>} />
+        <Route path = '/Genre3' element = {<Genre3 genre3Games={genre3Games} setFilter={setFilter} setGames={setGames}/>} />
+        <Route path = '/Genre4' element = {<Genre4 genre4Games={genre4Games} setFilter={setFilter} setGames={setGames}/>} />
+        <Route path = '/Owned' element = {<Owned ownedGames={OwnedGames} />} setFilter={setFilter} setGames={setGames}/>
+        <Route path = '/Favorites' element = {<Favorite favoriteGames={favoriteGames} setFilter={setFilter} setGames={setGames}/>} />
+        <Route path = '/Filtered' element = {<FilteredGames filteredGames={filteredGames} setFilter={setFilter} setGames={setGames}/>} />
       </Routes>
     </BrowserRouter>
-    
+    </div>
   );
 }
 
 export default App;
-
-
-{/* <div>
-<Home />
-<Header />
-<NavBar />
-<SearchBar />
-<NewGame />
-<p>landing Page test</p>
-<p>Hello</p>
-
-</div> */}

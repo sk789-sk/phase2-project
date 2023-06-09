@@ -5,24 +5,24 @@ import React from "react";
 function GameCard({name = 'Name', 
 link ='click to play', 
 imageSrc = "https://via.placeholder.com/400", 
-genre, tag, price =0, rating = "", owned=true, favorite=false})
+genre, tag, price =0, rating , owned=true, favorite=false})
 
 
 {
 
 
     return (
-        <li className="card">
-            <img src={imageSrc} alt={name} />
-            <h4>{name}</h4>            
+        <div className="card">
+            <img className="cardImage" src={imageSrc} alt={name} />
+            <h4 className="gameName">{name}</h4>            
             <a href={link}>Play Here</a>
-            <p>Genre {genre}</p>
-            <p>Tags {tag}</p>
-            <p>Price {price}</p>
-            <p>Rated {rating}/5</p>
+            <p className="genreName">Genre {genre}</p>
+            <p className="tagName">Tags {tag}</p>
+            <p className="price">Price {price}</p>
+            <p className="rating">Rated {rating}/5</p>
             <button> {owned ? "Favorite":"Unfavorite"}</button>
             <button>{favorite? "Owned": "UnOwned" }</button>
-        </li>
+        </div>
     )
 }
 

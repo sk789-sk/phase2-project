@@ -2,7 +2,7 @@ import React from "react";
 import GameCard from "./GameCard";
 import Header from "./Header";
 
-function Genre2({genre2Games}){
+function Genre2({genre2Games , setFilter, setGames}){
 
 let renderGames = genre2Games.map((game) => {
         return <GameCard key={game.id}
@@ -12,15 +12,15 @@ let renderGames = genre2Games.map((game) => {
     genre={game.Genre}
     tag={game.Tag}
     price={game.Price}
-    rating={game.rating}
-    owned={game.owned}
-    favorite={game.favorite}
+    rating={game.Rating}
+    owned={game.Owned}
+    favorite={game.Favorite}
         />
 })
     return(
         <div>
-            <Header />
-            <h1>You are genre2</h1>
+            <Header setFilter={setFilter} setGames={setGames} />
+            <h1 className="PageHeader">Genre2</h1>
             <h3>name</h3>
             {renderGames}
         </div>

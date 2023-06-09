@@ -2,40 +2,18 @@ import React from "react";
 import GameCard from "./GameCard";
 import Header from "./Header";
 
-{/* <nav>
-<p>NavBar</p>
-<a>Home</a>
-<a>Genre1</a>
-<a>genre2</a>
-<a>Genre3</a>
-<a>genre4</a>
-<a>Favorites</a>
-<a>Owned</a>
-</nav> */}
-
-// {name  
-// link
-// imageSrc 
-// genre,
-//  tag, 
-//  price 
-//  rating 
-//  owned,
-//  favorite}
-
-
-function Home({games}){
+function Home({games , setFilter, setGames}){
 
 let renderGames = games.map((game) => {
     return <GameCard key={game.id} name={game.Name} link={game.Link} imageSrc={game.Image}
-genre={game.Genre} tag={game.Tag} price={game.Price} rating={game.rating} owned={game.owned} favorite={game.favorite}
+genre={game.Genre} tag={game.Tag} price={game.Price} rating={game.Rating} owned={game.Owned} favorite={game.Favorite}
     />
 })
 
     return(
         <div>
-            <h1>You are Home</h1>
-            <Header />
+            <Header setFilter={setFilter} setGames={setGames} />
+            <h1 className="PageHeader">Home</h1>
             {renderGames}
         </div>
     )

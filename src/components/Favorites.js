@@ -2,7 +2,7 @@ import React from "react";
 import GameCard from "./GameCard"
 import Header from "./Header";
 
-function Favorite({favoriteGames}){     
+function Favorite({favoriteGames, setFilter, setGames}){     
 
 let renderGames = favoriteGames.map((game) => {
     return <GameCard key={game.id}
@@ -12,22 +12,17 @@ imageSrc={game.Image}
 genre={game.Genre}
 tag={game.Tag}
 price={game.Price}
-rating={game.rating}
-owned={game.owned}
-favorite={game.favorite}
+rating={game.Rating}
+owned={game.Owned}
+favorite={game.Favorite}
     />
 })
 
-// function renderFavorites(){
-//     return <GameCard />
-// }
-
-
     return(
         <div>
-            <Header />
-            <h1>You are Favorites</h1>
-            {renderGames}         {/* Change from function call to variable after */ }
+            <Header setFilter={setFilter} setGames={setGames} />
+            <h1 className="PageHeader">Favorite Games</h1>
+            {renderGames}        
 
         </div>
 

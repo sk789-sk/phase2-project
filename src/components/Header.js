@@ -3,13 +3,12 @@ import NavBar from "./NavBar";
 import SearchBar from "./SearchBar";
 import NewGameBar from "./NewGameBar";
 
-function Header({setFilter}){
+function Header({setFilter, setGames}){
     return(
         <div id="headerDiv">
-            <h1>Header</h1>
             <NavBar />
             <SearchBar setFilter={setFilter}/>
-            <NewGameBar />
+            <NewGameBar setFilter={setFilter} setGames={setGames} />
         </div>
     )
     }
