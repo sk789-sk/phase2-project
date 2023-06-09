@@ -12,17 +12,18 @@ const [isPrimary,setIsPrimary] = useState(true)
 function handleClick(){
     setIsPrimary(!isPrimary)}
 
+
+//Add Patch Request if time allows
 const [isFav,setIsFav] = useState(favorite)
 function handleFavClick(){
     setIsFav(!isFav)
 }
 
+//Add Patch Request if time allows
 const [isOwned,setIsOwned] = useState(owned)
 function handleOwnedClick(){
     setIsOwned(!isOwned)
 }
-
-
 
     return (
         <li className="card">

@@ -11,8 +11,7 @@ import Genre3 from './components/Genre3';
 import Genre4 from './components/Genre4'
 import FilteredGames from './components/FilteredGame'
 
-//should bundle all the cards together to make this not import hell.
-
+//Maybe bundle all the cards together to make this not import hell.
 
 function App() {
 
@@ -24,12 +23,9 @@ function App() {
     .then((data) =>setGames(data))
   },[])
 
-  // console.log(games)
-
 //games is everything in the database
 //the smaller arrays are the filtered games to render
 
-//Could pull all of this into a filter function of our own
 const favoriteGames = games.filter((game) => {
   return (game.Favorite === true)
 })
@@ -50,21 +46,12 @@ function genreFilter(array,filterby) {
   return filteredArray
 }
 
-const checkFPS = genreFilter(games,'FPS')
-const checkRPG = genreFilter(games,'RPG')
+const genre1Games = genreFilter(games,'FPS')
+const genre2Games = genreFilter(games,'RPG')
+const genre3Games = genreFilter(games, 'MOBA')
+const genre4Games = genreFilter(games, 'Sports')
 
-const genre1Games = games.filter((game)=> {    //FPS
-  return (game.Genre === "FPS")
-} ) 
-const genre2Games = games.filter((game) => {  //RPG
-  return (game.Genre === "RPG")
-}) 
-const genre3Games = games.filter((game) => {  //MOBA
-  return (game.Genre === 'MOBA')
-}) 
-const genre4Games = games.filter((game) => { //Sports
-  return (game.Genre === 'Sports')
-}) 
+
 const genre5Games = games.filter ((game) => { //Strategy
   return (game.Genre === 'Puzzle') 
 }) 
@@ -78,8 +65,6 @@ return (game.Name.toLowerCase().includes(filter.toLowerCase()) ||
         ) 
 
 })
-
-
 
   return (
     <div className='App'>
