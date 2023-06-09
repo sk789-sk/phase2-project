@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 import React, { useEffect, useState } from "react";
@@ -39,7 +38,21 @@ const OwnedGames = games.filter((game)=> {
   return (game.Owned === true)
 })
 
-//Make a genre filter function
+// Make a genre filter function that just takes in a genre and apply it here instead of all these
+
+function genreFilter(array,filterby) {
+  let filteredArray = []
+  for (let val in array){
+    if (array[val].Genre === filterby){
+      filteredArray.push(array[val])
+    }
+  }
+  return filteredArray
+}
+
+const checkFPS = genreFilter(games,'FPS')
+const checkRPG = genreFilter(games,'RPG')
+
 const genre1Games = games.filter((game)=> {    //FPS
   return (game.Genre === "FPS")
 } ) 

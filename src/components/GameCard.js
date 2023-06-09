@@ -23,7 +23,7 @@ function handleOwnedClick(){
 }
 
 
-{
+
     return (
         <li className="card">
             <img onClick={handleClick} className="cardImage" src={imageSrc} alt={name} />
@@ -48,6 +48,6 @@ function handleOwnedClick(){
             </div>
         </li>
     )
-}
+
 }
 export default GameCard

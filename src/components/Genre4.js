@@ -1,5 +1,4 @@
 import React from "react";
-import NavBar from "./NavBar";
 import GameCard from "./GameCard";
 import Header from "./Header";
 
