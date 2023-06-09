@@ -52,7 +52,7 @@ function handleSubmit(e) {
                 <input type="text" name="tag" placeholder='(ex:Strategy,Casual)'/>
                 <input type="float" name="price" placeholder="Price" />
                 <input type="number" name='rating' placeholder='Rating out of 5' />
-
+                <input type='text' name='Summary' placeholder='About the Game' />
                 <label>Favorite?<input type="checkbox" name='fav'/></label>
                 <label><input type="checkbox" name='owned' />Owned?</label>
                 <button type="submit">Add Game</button>
