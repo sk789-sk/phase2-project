@@ -12,10 +12,13 @@ favorite={game.Favorite} summary={game.Summary}
 })
 
     return(
-        <div>
-            <Header setFilter={setFilter} setGames={setGames} />
+        <div className="main-page">
+            <Header setFilter={setFilter} setGames={setGames} />         
             <h1 className="PageHeader">Home</h1>
-            {renderGames}
+            <ul className="card-container">
+                {renderGames}
+            </ul>
+            
         </div>
     )
     }

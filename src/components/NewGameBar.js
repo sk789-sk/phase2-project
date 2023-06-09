@@ -41,7 +41,7 @@ function handleSubmit(e) {
                 <input type="text" name="image" placeholder="Image URL" />
                 <input type="text" name="link" placeholder="Link to Game" /> 
                 <select id="genreType" name="genre">
-                    <option value ='default'></option>
+                    <option ></option>
                     <option value='FPS'>FPS</option>
                     <option value='RPG'>RPG</option>
                     <option value='MOBA'>MOBA</option>

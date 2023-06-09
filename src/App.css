@@ -2,38 +2,16 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
-.App{
+body {
   background-color: wheat;
-}
-
-/* .card{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: max-content;
-} */
-
-.card {
-  border-radius: 8px;
-  padding: 10px;
-  border: black 10px;
-  box-shadow: 0px 0px 8px #ccc;
-  color: #253b56;
-  margin: 12px 12px;
-  justify-content: right;
+  font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
 
 }
 
-.cardImage {
-  background-color: lightGray;
-  border-radius: 10px 10px 0 0;
-  width: 300px;
-  height: 300px;
-  overflow: hidden;
+.header-div {
+  display:block
 }
 
 .main-nav {
@@ -52,3 +30,81 @@ nav a {
   border-bottom: 2px solid firebrick;
   transition: 0.1s;
 }
+
+.search-bar{
+text-align: right;
+}
+
+.Searchby{
+  text-align: center;
+  border: 3px solid black;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.newGameForm{
+text-align: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.card {
+
+background-color: white;
+border-radius: 1rem;
+box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+margin: 12px 12px;
+display: flex;
+flex-direction: column;
+overflow:hidden 
+
+}
+
+.cardImage {
+  background-position: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightGray;
+  border-radius: 10px 10px 0 0;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.gameName {
+  text-align: center;
+  color: black;
+  font-size: 1.1rem
+}
+
+.playhere {
+  text-align: center;
+}
+
+.main-info {
+  text-align: center;
+}
+
+.buttons {
+  display: grid;
+}
+
+#secondary-info{
+  font-size: 100%;
+}
+
+
+.PageHeader {
+  text-align: center;
+}
+
+

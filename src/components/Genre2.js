@@ -22,7 +22,9 @@ let renderGames = genre2Games.map((game) => {
         <div>
             <Header setFilter={setFilter} setGames={setGames} />
             <h1 className="PageHeader">Role Player Games (RPG) </h1>
-            {renderGames}
+            <ul className="card-container">
+                {renderGames}
+            </ul>
         </div>
 
 

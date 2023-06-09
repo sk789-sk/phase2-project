@@ -12,9 +12,9 @@ let renderGames = filteredGames.map((game) => {
     genre={game.Genre}
     tag={game.Tag}
     price={game.Price}
-    rating={game.rating}
-    owned={game.owned}
-    favorite={game.favorite}
+    rating={game.Rating}
+    owned={game.Owned}
+    favorite={game.Favorite}
     summary={game.Summary}
         />
 })
@@ -23,7 +23,9 @@ let renderGames = filteredGames.map((game) => {
         <div> 
         <Header setFilter={setFilter} setGames={setGames}/>
         <h1 className="PageHeader">Results</h1> 
-            {renderGames}
+        <ul className="card-container">
+                {renderGames}
+            </ul>
         </div>
     )
     }

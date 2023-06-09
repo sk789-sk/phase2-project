@@ -24,7 +24,9 @@ summary={game.Summary}
         <div>
             <Header setFilter={setFilter} setGames={setGames} />
             <h1 className="PageHeader">Favorite Games</h1>
-            {renderGames}        
+            <ul className="card-container">
+                {renderGames}
+            </ul>      
 
         </div>
 

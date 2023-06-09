@@ -76,7 +76,7 @@
       "id": 6,
       "Owned": true,
       "Favorite": true,
-      "Summary" : "Horizon Zero Dawn is an action role-playing game (RPG) developed by Guerrilla Games and published by Sony Interactive Entertainment. Set in a post-apocalyptic world overrun by robotic creatures, players control Aloy, a skilled hunter and archer, as she unravels the mysteries of her world and discovers her own origins. The game combines open-world exploration, strategic combat, and a compelling narrative, showcasing Aloy's journey through lush environments and dangerous encounters. With its breathtaking visuals, immersive gameplay, and a richly crafted world, Horizon Zero Dawn has garnered critical acclaim for its engaging story, dynamic combat mechanics, and the depth of its characters."
+      "Summary": "Horizon Zero Dawn is an action role-playing game (RPG) developed by Guerrilla Games and published by Sony Interactive Entertainment. Set in a post-apocalyptic world overrun by robotic creatures, players control Aloy, a skilled hunter and archer, as she unravels the mysteries of her world and discovers her own origins. The game combines open-world exploration, strategic combat, and a compelling narrative, showcasing Aloy's journey through lush environments and dangerous encounters. With its breathtaking visuals, immersive gameplay, and a richly crafted world, Horizon Zero Dawn has garnered critical acclaim for its engaging story, dynamic combat mechanics, and the depth of its characters."
     },
     {
       "Name": "Deus Ex: Human Revolution",
@@ -89,7 +89,7 @@
       "id": 7,
       "Owned": true,
       "Favorite": false,
-      "Summary" : "Deus Ex: Human Revolution is a cyberpunk-themed action role-playing game (RPG) developed by Eidos Montreal and published by Square Enix. Set in the near future, players assume the role of Adam Jensen, a security specialist equipped with cybernetic augmentations. The game combines stealth, combat, and exploration as players navigate a conspiracy-filled world, unraveling a complex storyline revolving around human augmentation and its ethical implications. With its player choice-driven gameplay, deep character customization, and a dystopian atmosphere, Deus Ex: Human Revolution has received acclaim for its engaging narrative, immersive world, and the moral dilemmas it presents to players."
+      "Summary": "Deus Ex: Human Revolution is a cyberpunk-themed action role-playing game (RPG) developed by Eidos Montreal and published by Square Enix. Set in the near future, players assume the role of Adam Jensen, a security specialist equipped with cybernetic augmentations. The game combines stealth, combat, and exploration as players navigate a conspiracy-filled world, unraveling a complex storyline revolving around human augmentation and its ethical implications. With its player choice-driven gameplay, deep character customization, and a dystopian atmosphere, Deus Ex: Human Revolution has received acclaim for its engaging narrative, immersive world, and the moral dilemmas it presents to players."
     },
     {
       "Name": "Watch Dogs 2",
@@ -102,7 +102,7 @@
       "id": 8,
       "Owned": true,
       "Favorite": false,
-      "Summary" : "Watch Dogs 2 is an open-world action-adventure game developed by Ubisoft. Set in a fictionalized version of the San Francisco Bay Area, players assume the role of Marcus Holloway, a skilled hacker and member of the hacking group DedSec. The game focuses on hacking into various systems, manipulating technology, and engaging in stealth or combat to complete missions and expose the corrupt practices of powerful corporations. With its emphasis on hacking mechanics, a vibrant open world, and a story that explores themes of surveillance and privacy, Watch Dogs 2 offers an immersive experience filled with hacking-driven gameplay and a dose of social commentary."
+      "Summary": "Watch Dogs 2 is an open-world action-adventure game developed by Ubisoft. Set in a fictionalized version of the San Francisco Bay Area, players assume the role of Marcus Holloway, a skilled hacker and member of the hacking group DedSec. The game focuses on hacking into various systems, manipulating technology, and engaging in stealth or combat to complete missions and expose the corrupt practices of powerful corporations. With its emphasis on hacking mechanics, a vibrant open world, and a story that explores themes of surveillance and privacy, Watch Dogs 2 offers an immersive experience filled with hacking-driven gameplay and a dose of social commentary."
     },
     {
       "Name": "League of Legends",
@@ -141,7 +141,7 @@
       "id": 11,
       "Owned": false,
       "Favorite": false,
-      "Summary" : "Smite is a popular multiplayer online battle arena (MOBA) game developed and published by Hi-Rez Studios. Unlike traditional top-down MOBAs, Smite takes a third-person perspective, immersing players in the action as they control gods, goddesses, and mythological creatures from various pantheons. Players engage in strategic team-based battles across different game modes and maps, aiming to destroy the enemy team's Titan while defending their own. Smite offers a wide range of diverse characters, each with unique abilities and playstyles. With its immersive perspective, mythological theme, and dynamic gameplay, Smite has carved out its own niche within the MOBA genre and garnered a dedicated player community."
+      "Summary": "Smite is a popular multiplayer online battle arena (MOBA) game developed and published by Hi-Rez Studios. Unlike traditional top-down MOBAs, Smite takes a third-person perspective, immersing players in the action as they control gods, goddesses, and mythological creatures from various pantheons. Players engage in strategic team-based battles across different game modes and maps, aiming to destroy the enemy team's Titan while defending their own. Smite offers a wide range of diverse characters, each with unique abilities and playstyles. With its immersive perspective, mythological theme, and dynamic gameplay, Smite has carved out its own niche within the MOBA genre and garnered a dedicated player community."
     },
     {
       "Name": "EA SPORTS™ FIFA 23",

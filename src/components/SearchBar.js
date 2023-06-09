@@ -13,8 +13,8 @@ function SearchBar({setFilter}){ //{setFilter}
     }
 
     return(
-    <div>
-        <input onClick={handleClick} onChange={handleChange} type="text" className="SearchBar" placeholder="Search by Name or Tag"/>
+    <div className="search-bar">
+        <input onClick={handleClick} onChange={handleChange} type="text" className="Searchby" placeholder="Search by Name or Tag"/>
     </div>
     )
     }

@@ -16,6 +16,7 @@ price={game.Price}
 rating={game.Rating}
 owned={game.Owned}
 favorite={game.Favorite}
+summary={game.Summary}
     />
 })
     
@@ -23,7 +24,9 @@ favorite={game.Favorite}
         <div>
             <Header setFilter={setFilter} setGames={setGames} />
             <h1 className="PageHeader">Owned Games</h1>
-            {renderGames}
+            <ul className="card-container">
+                {renderGames}
+            </ul>
         </div>
     )
     }

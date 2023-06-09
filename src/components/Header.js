@@ -5,7 +5,7 @@ import NewGameBar from "./NewGameBar";
 
 function Header({setFilter, setGames}){
     return(
-        <div id="headerDiv">
+        <div className="header-div">
             <NavBar />
             <SearchBar setFilter={setFilter}/>
             <NewGameBar setFilter={setFilter} setGames={setGames} />

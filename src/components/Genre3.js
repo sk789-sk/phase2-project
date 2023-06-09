@@ -23,7 +23,9 @@ summary={game.Summary}
         <div>
             <Header setFilter={setFilter} setGames={setGames} />
             <h1 className="PageHeader">Massive Online Battle Arena (MOBA) </h1>
-            {renderGames}
+            <ul className="card-container">
+                {renderGames}
+            </ul>
         </div>
 
 

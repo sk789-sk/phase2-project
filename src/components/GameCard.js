@@ -25,27 +25,28 @@ function handleOwnedClick(){
 
 {
     return (
-        <div className="card">
+        <li className="card">
             <img onClick={handleClick} className="cardImage" src={imageSrc} alt={name} />
             <h4 className="gameName">{name}</h4>            
-            <a href={link}>Play Here</a>
+            <a className="playhere" href={link}>Play Here</a>
 
-            <div id="main-info"> 
+            <div className="main-info"> 
                 {isPrimary ? 
                 <div id="primary-info">
-                    <p className="genreName">Genre: {genre}</p>
-                    <p className="tagName">Tags: {tag}</p>
-                    <p className="price">Price: {price}</p>
-                    <p className="rating">Rated: {rating}/5</p>
+                    <p className="genreName">Genre:      {genre}</p>
+                    <p className="tagName">Tags:      {tag}</p>
+                    <p className="price">Price:      {price}</p>
+                    <p className="rating">Rated:      {rating}/5</p>
                 </div> : 
                 <div id="secondary-info">
                     <p>{summary}</p>
                 </div> }
             </div>
-
-            <button onClick={handleFavClick}> {isFav ? "Remove from Favorites":"Add to Favorite"}</button>
-            <button onClick={handleOwnedClick}>{isOwned? "Remove from Owned": "Add to Owned" }</button>
-        </div>
+            <div className="buttons">
+                <button onClick={handleFavClick}> {isFav ? "Remove from Favorites":"Add to Favorite"}</button>
+                <button onClick={handleOwnedClick}>{isOwned? "Remove from Owned": "Add to Owned" }</button>
+            </div>
+        </li>
     )
 }
 }
